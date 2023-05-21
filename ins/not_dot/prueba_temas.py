@@ -12,8 +12,7 @@ def foo(par) -> str:
         return "hola"
     elif par == [(1,'hi')]:
         a = True
-    
-
+   
 # comment
 n, s = 91, "hola"
 li = [[3, "chau", True, None, (2, 3), int], 1]
