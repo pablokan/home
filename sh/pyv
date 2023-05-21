@@ -1,0 +1,20 @@
+#!/bin/bash
+
+if [[ $# > 2 ]] || [[ $# == 0 ]]; then
+    echo "1 o 2 parámetros: <Python_version> y opcionalmente <dir_name>"
+
+else
+
+    if [[ $# == 2 ]]; then    
+        echo "Crea directorio $2 y entra"
+        mkdir $2
+        cd $2
+    fi
+    
+    echo "crea el virtualenv y lo hace local"
+    pyenv virtualenv $1 $1-$(basename $PWD)
+    pyenv local $1-$(basename $PWD)
+    
+fi
+
+

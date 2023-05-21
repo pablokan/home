@@ -1,0 +1,15 @@
+[character]                            # The name of the module we are configuring is "character"
+success_symbol = "[➜](bold green)"     # The "success_symbol" segment is being set to "➜" with the color "bold green"
+
+[python]
+pyenv_version_name = true
+symbol = "💥 🐉 💥 "
+#format = 'in [${symbol}${pyenv_prefix}(${version} )(\($virtualenv\) )]($style)'
+format = 'in [${symbol}${pyenv_prefix}(${version} )]($style)'
+
+[git_branch]
+symbol = "🌱 "
+truncation_length = 4
+truncation_symbol = ""
+
+

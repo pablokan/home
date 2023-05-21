@@ -1,0 +1,24 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+r",
+        "command": "python.execInTerminal"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "terminalHere.create"
+    },
+    {
+        "key": "ctrl+alt+q",
+        "command": "workbench.action.quit"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "-workbench.action.quit"
+    }
+]
