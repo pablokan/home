@@ -1,2 +1,4 @@
 Main Backed files: ins/not_dot
 
+Para habilitar Neon Dreams de synthwave 84:
+sudo chown -R $USER /usr/share/code/
