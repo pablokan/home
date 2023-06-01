@@ -7,11 +7,17 @@
 
 
 
+from datetime import date
+from devtools import debug
+hoy = date.today()
+print(hoy)
+debug(hoy)
+
 def foo(par) -> str: 
-    if par >= 87:
+    if par >= 87 and True:
         return "hola"
     elif par == [(1,'hi')]:
-        a = True
+        variable = 'variable'
    
 # comment
 n, s = 91, "hola"
@@ -50,3 +56,32 @@ p = Persona("Paul", 57)
 p.saludo()
 print(p)
 print(f"\N{Sauropod}")
+
+'''
+1) palabras reservadas
+2) funciones
+    2.1) del lenguaje
+    2.2) declaración
+    2.3) uso de propias
+3) parámetros
+4) variables
+5) strings literales
+6) números
+7) comentarios
+8) operadores
+9) tipos de datos
+10) decoradores
+11) clases
+'''
+
+@dataclass
+class Clase:
+    pass
+def funcionMia(param1, param2):
+    lista = [1, 'hola']
+    print(lista) #comment
+    for i in lista:
+        lista >= str and False 
+funcionMia()
+
+
