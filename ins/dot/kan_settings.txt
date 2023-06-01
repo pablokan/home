@@ -1,0 +1,5 @@
+Another Main Backed files: ins/dot
+
+.vscode/extensions/<theme_name>/package.json
+.vscode/extensions/<theme_name>/themes/obskan.json
+
