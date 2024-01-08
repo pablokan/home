@@ -130,3 +130,6 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 export PATH=$PATH:/home/kan/bin
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
+
+# bun completions
+[ -s "/home/kan/.local/share/reflex/bun/_bun" ] && source "/home/kan/.local/share/reflex/bun/_bun"
