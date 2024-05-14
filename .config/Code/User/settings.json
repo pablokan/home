@@ -1,12 +1,21 @@
 {
     "window.zoomLevel": 1,
-    "editor.fontFamily": "Monaspace, SauceCodePro Nerd Font, Victor Mono, RobotoMono Nerd Font, OpenDyslexic Nerd Font, My Font, Monoid, Iosevka, IntelOne Mono, Inconsolata, Hasklug Nerd Font, Hack Nerd Font, FiraCode Nerd Font, Comic Mono, CaskaydiaCove Nerd Font, Binchotan_Sharp, 'Droid Sans Mono', 'monospace', monospace",
-    "workbench.colorTheme": "Andromeda Colorizer",
+    "editor.fontFamily": "Hack Nerd Font, Monaspace, SauceCodePro Nerd Font, Victor Mono, RobotoMono Nerd Font, OpenDyslexic Nerd Font, My Font, Monoid, Iosevka, IntelOne Mono, Inconsolata, Hasklug Nerd Font, FiraCode Nerd Font, Comic Mono, CaskaydiaCove Nerd Font, Binchotan_Sharp, 'Droid Sans Mono', 'monospace', monospace",
+    "workbench.colorTheme": "SynthWave '84",
     "git.confirmSync": false,
     "editor.minimap.enabled": false,
     "git.enableSmartCommit": true,
     "workbench.startupEditor": "none",
     "workbench.editor.enablePreview": false,
     "workbench.editor.empty.hint": "hidden",
-    "git.openRepositoryInParentFolders": "never"
+    "git.openRepositoryInParentFolders": "never",
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "off",
+        "strings": "off"
+    },
+    "editor.parameterHints.enabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.activityBar.location": "bottom",
+    "window.customTitleBarVisibility": "auto"
 }

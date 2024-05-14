@@ -129,7 +129,13 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 export PATH=$PATH:/home/kan/bin
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-
+eval "$(zoxide init zsh)"
 
 # bun completions
 [ -s "/home/kan/.local/share/reflex/bun/_bun" ] && source "/home/kan/.local/share/reflex/bun/_bun"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+export PATH=/home/kan/.nvm/versions/node/v22.0.0/bin:$PATH
+
+
+
