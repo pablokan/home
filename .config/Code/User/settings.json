@@ -1,7 +1,7 @@
 {
     "window.zoomLevel": 1,
     "editor.fontFamily": "Hack Nerd Font, Monaspace, SauceCodePro Nerd Font, Victor Mono, RobotoMono Nerd Font, OpenDyslexic Nerd Font, My Font, Monoid, Iosevka, IntelOne Mono, Inconsolata, Hasklug Nerd Font, FiraCode Nerd Font, Comic Mono, CaskaydiaCove Nerd Font, Binchotan_Sharp, 'Droid Sans Mono', 'monospace', monospace",
-    "workbench.colorTheme": "SynthWave '84",
+    "workbench.colorTheme": "Kan Green",
     "git.confirmSync": false,
     "editor.minimap.enabled": false,
     "git.enableSmartCommit": true,
